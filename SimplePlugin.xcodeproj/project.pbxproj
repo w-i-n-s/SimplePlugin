@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A57239318215BA80001E5A3 /* SimplePluginBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A57239218215BA80001E5A3 /* SimplePluginBundle.m */; };
+		2A572396182160CC0001E5A3 /* YellowDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A572394182160CC0001E5A3 /* YellowDot.png */; };
+		2A572397182160CC0001E5A3 /* YellowDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A572395182160CC0001E5A3 /* YellowDot@2x.png */; };
+		2A57239A182160EA0001E5A3 /* RedDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A572398182160EA0001E5A3 /* RedDot.png */; };
+		2A57239B182160EA0001E5A3 /* RedDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A572399182160EA0001E5A3 /* RedDot@2x.png */; };
+		2A57239E182160F70001E5A3 /* GreenDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A57239C182160F70001E5A3 /* GreenDot.png */; };
+		2A57239F182160F70001E5A3 /* GreenDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A57239D182160F70001E5A3 /* GreenDot@2x.png */; };
+		2A5723A3182166A30001E5A3 /* SimplePluginPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5723A2182166A30001E5A3 /* SimplePluginPreferences.m */; };
+		2A5723A7182169BB0001E5A3 /* NSPreferences+SimplePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5723A6182169BB0001E5A3 /* NSPreferences+SimplePlugin.m */; };
+		2A5723AA18216B170001E5A3 /* SimplePluginOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5723A918216B170001E5A3 /* SimplePluginOptions.m */; };
+		2A5723AD18216CE00001E5A3 /* NSObject+LPDynamicIvars.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5723AC18216CE00001E5A3 /* NSObject+LPDynamicIvars.m */; };
+		2A5723B118216D8D0001E5A3 /* SimplePluginPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A5723B018216D8D0001E5A3 /* SimplePluginPreferences.xib */; };
+		2A5723B41821708B0001E5A3 /* teapotPreferences.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5723B21821708B0001E5A3 /* teapotPreferences.png */; };
+		2A5723B51821708C0001E5A3 /* teapotPreferences@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5723B31821708B0001E5A3 /* teapotPreferences@2x.png */; };
+		2A5723B8182174840001E5A3 /* JRLPSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5723B7182174840001E5A3 /* JRLPSwizzle.m */; };
+		2A5723BC182174C10001E5A3 /* CCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5723BB182174C10001E5A3 /* CCLog.m */; };
+		2A5723BF182176FA0001E5A3 /* NSToolbar+SimplePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5723BE182176FA0001E5A3 /* NSToolbar+SimplePlugin.m */; };
+		2AC9558E1821197B00271174 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC9558D1821197B00271174 /* CoreFoundation.framework */; };
+		2AC955941821197B00271174 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AC955921821197B00271174 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A57239118215BA80001E5A3 /* SimplePluginBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePluginBundle.h; sourceTree = "<group>"; };
+		2A57239218215BA80001E5A3 /* SimplePluginBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePluginBundle.m; sourceTree = "<group>"; };
+		2A572394182160CC0001E5A3 /* YellowDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowDot.png; sourceTree = "<group>"; };
+		2A572395182160CC0001E5A3 /* YellowDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YellowDot@2x.png"; sourceTree = "<group>"; };
+		2A572398182160EA0001E5A3 /* RedDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedDot.png; sourceTree = "<group>"; };
+		2A572399182160EA0001E5A3 /* RedDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RedDot@2x.png"; sourceTree = "<group>"; };
+		2A57239C182160F70001E5A3 /* GreenDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenDot.png; sourceTree = "<group>"; };
+		2A57239D182160F70001E5A3 /* GreenDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreenDot@2x.png"; sourceTree = "<group>"; };
+		2A5723A1182166A30001E5A3 /* SimplePluginPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePluginPreferences.h; sourceTree = "<group>"; };
+		2A5723A2182166A30001E5A3 /* SimplePluginPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePluginPreferences.m; sourceTree = "<group>"; };
+		2A5723A5182169BB0001E5A3 /* NSPreferences+SimplePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPreferences+SimplePlugin.h"; sourceTree = "<group>"; };
+		2A5723A6182169BB0001E5A3 /* NSPreferences+SimplePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPreferences+SimplePlugin.m"; sourceTree = "<group>"; };
+		2A5723A818216B170001E5A3 /* SimplePluginOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePluginOptions.h; sourceTree = "<group>"; };
+		2A5723A918216B170001E5A3 /* SimplePluginOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePluginOptions.m; sourceTree = "<group>"; };
+		2A5723AB18216CE00001E5A3 /* NSObject+LPDynamicIvars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LPDynamicIvars.h"; sourceTree = "<group>"; };
+		2A5723AC18216CE00001E5A3 /* NSObject+LPDynamicIvars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LPDynamicIvars.m"; sourceTree = "<group>"; };
+		2A5723B018216D8D0001E5A3 /* SimplePluginPreferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimplePluginPreferences.xib; sourceTree = "<group>"; };
+		2A5723B21821708B0001E5A3 /* teapotPreferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teapotPreferences.png; sourceTree = "<group>"; };
+		2A5723B31821708B0001E5A3 /* teapotPreferences@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teapotPreferences@2x.png"; sourceTree = "<group>"; };
+		2A5723B6182174840001E5A3 /* JRLPSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRLPSwizzle.h; sourceTree = "<group>"; };
+		2A5723B7182174840001E5A3 /* JRLPSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRLPSwizzle.m; sourceTree = "<group>"; };
+		2A5723BA182174C10001E5A3 /* CCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLog.h; sourceTree = "<group>"; };
+		2A5723BB182174C10001E5A3 /* CCLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLog.m; sourceTree = "<group>"; };
+		2A5723BD182176FA0001E5A3 /* NSToolbar+SimplePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSToolbar+SimplePlugin.h"; sourceTree = "<group>"; };
+		2A5723BE182176FA0001E5A3 /* NSToolbar+SimplePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSToolbar+SimplePlugin.m"; sourceTree = "<group>"; };
+		2AC9558A1821197B00271174 /* SimplePlugin.mailbundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePlugin.mailbundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC9558D1821197B00271174 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		2AC955911821197B00271174 /* SimplePlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimplePlugin-Info.plist"; sourceTree = "<group>"; };
+		2AC955931821197B00271174 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AC955951821197B00271174 /* SimplePlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimplePlugin-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AC955871821197B00271174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC9558E1821197B00271174 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A5723A0182160FE0001E5A3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2A5723B21821708B0001E5A3 /* teapotPreferences.png */,
+				2A5723B31821708B0001E5A3 /* teapotPreferences@2x.png */,
+				2A57239C182160F70001E5A3 /* GreenDot.png */,
+				2A57239D182160F70001E5A3 /* GreenDot@2x.png */,
+				2A572398182160EA0001E5A3 /* RedDot.png */,
+				2A572399182160EA0001E5A3 /* RedDot@2x.png */,
+				2A572394182160CC0001E5A3 /* YellowDot.png */,
+				2A572395182160CC0001E5A3 /* YellowDot@2x.png */,
+			);
+			name = images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2A5723B91821748A0001E5A3 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2A5723BA182174C10001E5A3 /* CCLog.h */,
+				2A5723BB182174C10001E5A3 /* CCLog.m */,
+				2A5723B6182174840001E5A3 /* JRLPSwizzle.h */,
+				2A5723B7182174840001E5A3 /* JRLPSwizzle.m */,
+				2A5723AB18216CE00001E5A3 /* NSObject+LPDynamicIvars.h */,
+				2A5723AC18216CE00001E5A3 /* NSObject+LPDynamicIvars.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		2AC955811821197B00271174 = {
+			isa = PBXGroup;
+			children = (
+				2A5723B91821748A0001E5A3 /* lib */,
+				2A5723BD182176FA0001E5A3 /* NSToolbar+SimplePlugin.h */,
+				2A5723BE182176FA0001E5A3 /* NSToolbar+SimplePlugin.m */,
+				2A5723A818216B170001E5A3 /* SimplePluginOptions.h */,
+				2A5723A918216B170001E5A3 /* SimplePluginOptions.m */,
+				2A5723A5182169BB0001E5A3 /* NSPreferences+SimplePlugin.h */,
+				2A5723A6182169BB0001E5A3 /* NSPreferences+SimplePlugin.m */,
+				2A5723B018216D8D0001E5A3 /* SimplePluginPreferences.xib */,
+				2A5723A1182166A30001E5A3 /* SimplePluginPreferences.h */,
+				2A5723A2182166A30001E5A3 /* SimplePluginPreferences.m */,
+				2A57239118215BA80001E5A3 /* SimplePluginBundle.h */,
+				2A57239218215BA80001E5A3 /* SimplePluginBundle.m */,
+				2AC9558F1821197B00271174 /* SimplePlugin */,
+				2AC9558C1821197B00271174 /* Frameworks */,
+				2AC9558B1821197B00271174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AC9558B1821197B00271174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AC9558A1821197B00271174 /* SimplePlugin.mailbundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AC9558C1821197B00271174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AC9558D1821197B00271174 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AC9558F1821197B00271174 /* SimplePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				2AC955901821197B00271174 /* Supporting Files */,
+			);
+			path = SimplePlugin;
+			sourceTree = "<group>";
+		};
+		2AC955901821197B00271174 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A5723A0182160FE0001E5A3 /* images */,
+				2AC955911821197B00271174 /* SimplePlugin-Info.plist */,
+				2AC955921821197B00271174 /* InfoPlist.strings */,
+				2AC955951821197B00271174 /* SimplePlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AC955891821197B00271174 /* SimplePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC955981821197B00271174 /* Build configuration list for PBXNativeTarget "SimplePlugin" */;
+			buildPhases = (
+				2AC955861821197B00271174 /* Sources */,
+				2AC955871821197B00271174 /* Frameworks */,
+				2AC955881821197B00271174 /* Resources */,
+				2A572390182159880001E5A3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplePlugin;
+			productName = SimplePlugin;
+			productReference = 2AC9558A1821197B00271174 /* SimplePlugin.mailbundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AC955821821197B00271174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 2AC955851821197B00271174 /* Build configuration list for PBXProject "SimplePlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2AC955811821197B00271174;
+			productRefGroup = 2AC9558B1821197B00271174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AC955891821197B00271174 /* SimplePlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AC955881821197B00271174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A572397182160CC0001E5A3 /* YellowDot@2x.png in Resources */,
+				2AC955941821197B00271174 /* InfoPlist.strings in Resources */,
+				2A57239F182160F70001E5A3 /* GreenDot@2x.png in Resources */,
+				2A57239B182160EA0001E5A3 /* RedDot@2x.png in Resources */,
+				2A5723B51821708C0001E5A3 /* teapotPreferences@2x.png in Resources */,
+				2A5723B41821708B0001E5A3 /* teapotPreferences.png in Resources */,
+				2A572396182160CC0001E5A3 /* YellowDot.png in Resources */,
+				2A57239A182160EA0001E5A3 /* RedDot.png in Resources */,
+				2A57239E182160F70001E5A3 /* GreenDot.png in Resources */,
+				2A5723B118216D8D0001E5A3 /* SimplePluginPreferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A572390182159880001E5A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "################################################\n# Install the bundle in ~/Library/Mail/bundles #\n################################################\n\nrm -fr \"$HOME/Library/Mail/Bundles/$FULL_PRODUCT_NAME\"\n\n# Copy the Bundle\nmkdir -p ~/Library/Mail/Bundles/\ncp -RH \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" \"$HOME/Library/Mail/Bundles/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AC955861821197B00271174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5723B8182174840001E5A3 /* JRLPSwizzle.m in Sources */,
+				2A5723A7182169BB0001E5A3 /* NSPreferences+SimplePlugin.m in Sources */,
+				2A5723BC182174C10001E5A3 /* CCLog.m in Sources */,
+				2A5723BF182176FA0001E5A3 /* NSToolbar+SimplePlugin.m in Sources */,
+				2A5723AA18216B170001E5A3 /* SimplePluginOptions.m in Sources */,
+				2A5723AD18216CE00001E5A3 /* NSObject+LPDynamicIvars.m in Sources */,
+				2A57239318215BA80001E5A3 /* SimplePluginBundle.m in Sources */,
+				2A5723A3182166A30001E5A3 /* SimplePluginPreferences.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AC955921821197B00271174 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC955931821197B00271174 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AC955961821197B00271174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2AC955971821197B00271174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2AC955991821197B00271174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUNDLE_LOADER = /Applications/Mail.app/Contents/MacOS/Mail;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Frameworks\"",
+					"$(SRCROOT)/Dependencies/Libmacgpg/build/$(CONFIGURATION)",
+					"$(HOME)/Library/Containers/com.apple.mail/Data/Library/Frameworks",
+					"$(HOME)/Library/Frameworks",
+					/Library/Frameworks,
+					"\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePlugin/SimplePlugin-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"MailHeaders/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "SimplePlugin/SimplePlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Mail/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = "$(HOME)/Library/Frameworks $(HOME)/Library/Containers/com.apple.mail/Data/Library/Frameworks /Library/Frameworks";
+				OTHER_LDFLAGS = (
+					"-force_flat_namespace",
+					"-undefined",
+					suppress,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "x86_64 i386";
+				WRAPPER_EXTENSION = mailbundle;
+			};
+			name = Debug;
+		};
+		2AC9559A1821197B00271174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUNDLE_LOADER = /Applications/Mail.app/Contents/MacOS/Mail;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Frameworks\"",
+					"$(SRCROOT)/Dependencies/Libmacgpg/build/$(CONFIGURATION)",
+					"$(HOME)/Library/Containers/com.apple.mail/Data/Library/Frameworks",
+					"$(HOME)/Library/Frameworks",
+					/Library/Frameworks,
+					"\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePlugin/SimplePlugin-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"MailHeaders/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "SimplePlugin/SimplePlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Mail/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = "$(HOME)/Library/Frameworks $(HOME)/Library/Containers/com.apple.mail/Data/Library/Frameworks /Library/Frameworks";
+				OTHER_LDFLAGS = (
+					"-force_flat_namespace",
+					"-undefined",
+					suppress,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "x86_64 i386";
+				WRAPPER_EXTENSION = mailbundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AC955851821197B00271174 /* Build configuration list for PBXProject "SimplePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC955961821197B00271174 /* Debug */,
+				2AC955971821197B00271174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC955981821197B00271174 /* Build configuration list for PBXNativeTarget "SimplePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC955991821197B00271174 /* Debug */,
+				2AC9559A1821197B00271174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AC955821821197B00271174 /* Project object */;
+}
